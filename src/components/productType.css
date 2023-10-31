@@ -1,0 +1,22 @@
+.pt {
+  width: 534px;
+  height: 60px;
+}
+
+.pt p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.ptTextField {
+  width: 534px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px;
+  background-color: #f7f8f9;
+}

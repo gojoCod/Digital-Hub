@@ -1,0 +1,6 @@
+.ctr-1 {
+  display: flex;
+  align-items: center;
+  gap: 5;
+  justify-content: space-between;
+}

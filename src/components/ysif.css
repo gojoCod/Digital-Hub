@@ -1,0 +1,19 @@
+.ysif {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.inptField {
+  gap: 0px;
+}
+
+.textField {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 534px;
+  background: #f7f8f9;
+}
+
+p {
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.ctr-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back {
+  color: #0077ae;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reset {
+  color: #63738a;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.reset-button {
+  margin-right: 10px;
+}

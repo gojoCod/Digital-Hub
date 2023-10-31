@@ -1,0 +1,182 @@
+.ai {
+  width: auto;
+  height: auto;
+}
+
+.ai h4 {
+  width: 231px;
+  height: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  color: #001b33;
+  display: flex;
+  gap: 8px;
+}
+
+.ai h4 span img {
+  margin-bottom: 30px;
+  top: 0;
+  right: 0;
+}
+
+.aiBox {
+  width: 100%;
+  height: 380px;
+}
+
+.leftRightButton {
+  padding-left: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
+}
+
+/* Apply custom scrollbar styles to the List component */
+.custom-scrollbar {
+  width: 12px;
+  height: 65px;
+  border-radius: 40px;
+  scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #0077ae;
+  border-radius: 40px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #e0e3e8;
+  border-radius: 40px;
+}
+
+.listItem {
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+}
+
+.listItemText {
+  color: var(--functional-tokens-text-pm-text, #000);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.li-icon {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.li-text {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.lii {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+}
+
+.box-2 {
+  width: auto;
+  min-width: 534px;
+  height: 380px;
+  border: 1px solid #c1c7d0;
+}
+
+.cardHeader {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textHeader {
+  width: 97%;
+  height: 44px;
+  padding: 12px 16px 12px 16px;
+  border: 1px;
+  gap: 8px;
+}
+
+.headerCheckbox {
+  display: flex;
+  gap: 5px;
+}
+
+.subCardHeader {
+  width: 98%;
+  height: 32px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #c1c7d0;
+}
+
+.headerCheckbox p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.subCardHeader p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #001b33;
+}
+
+.list {
+  margin-top: 13px;
+}
+
+.searchIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gridContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.leftGrid {
+  width: 46%;
+}
+
+.rightGrid {
+  width: 46%;
+}
+
+.midGrid {
+  width: 7%;
+  display: flex;
+  align-items: center;
+}
